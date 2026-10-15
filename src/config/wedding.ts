@@ -7,6 +7,12 @@
  * 3. All components across the application consume this single source of truth.
  */
 
+import bridePhoto from '../assets/images/bride_portrait_1792099311324.jpg';
+import groomPhoto from '../assets/images/groom_portrait_1792099311214.jpg';
+import palaceHero from '../assets/images/udaipur_palace_hero_1792099309997.jpg';
+import twilight from '../assets/images/udaipur_twilight_closing_1792099310694.jpg';
+import mandap from '../assets/images/royal_mandap_celebration_1792099311415.jpg';
+
 export interface EventDetail {
   id: string;
   name: string;
@@ -183,7 +189,7 @@ export const weddingConfig: WeddingConfig = {
     initials: "R",
     bio: "An architect with an eye for timeless heritage and open skies. She finds beauty in classical Mewari courtyards, quiet lakeside mornings, and spontaneous family laughs.",
     bioHindi: "कला और वास्तुकला से प्रेम करने वाली राधिका, मेवाड़ी झरोखों और झील के शांत सवेरों में सुकून पाती हैं।",
-    photo: "/src/assets/images/bride_portrait_1792099311324.jpg",
+    photo: bridePhoto,
     family: {
       father: "Dr. Alok Sharma",
       mother: "Mrs. Meenakshi Sharma",
@@ -198,7 +204,7 @@ export const weddingConfig: WeddingConfig = {
     initials: "S",
     bio: "A heritage preservation enthusiast and entrepreneur who carries deep reverence for Mewar's valiant past, warm hospitality, and the timeless magic of Udaipur's golden sunsets.",
     bioHindi: "उदयपुर की पावन धरा और संस्कृति से गहरे जुड़े सूर्यवीर, परंपरा और आधुनिकता के खूबसूरत संगम में विश्वास रखते हैं।",
-    photo: "/src/assets/images/groom_portrait_1792099311214.jpg",
+    photo: groomPhoto,
     family: {
       father: "Thakur Mahendra Singh",
       mother: "Mrs. Gayatri Devi",
@@ -231,9 +237,9 @@ export const weddingConfig: WeddingConfig = {
     city: "Udaipur",
     stateCountry: "Rajasthan, India",
     googleMapsUrl: "https://maps.google.com/?q=The+Oberoi+Udaivilas+Udaipur",
-    heroImage: "/src/assets/images/udaipur_palace_hero_1792099309997.jpg",
-    twilightImage: "/src/assets/images/udaipur_twilight_closing_1792099310694.jpg",
-    mandapImage: "/src/assets/images/royal_mandap_celebration_1792099311415.jpg",
+    heroImage: palaceHero,
+    twilightImage: twilight,
+    mandapImage: mandap,
   },
   events: [
     {
@@ -418,7 +424,7 @@ export const weddingConfig: WeddingConfig = {
       title: "The Royal Heritage",
       titleHindi: "राजसी धरोहर",
       category: "portraits",
-      imageUrl: "/src/assets/images/udaipur_palace_hero_1792099309997.jpg",
+      imageUrl: palaceHero,
       caption: "City Palace reflections in the tranquil waters of Lake Pichola at sunset.",
       captionHindi: "सूर्यास्त के समय पिछोला झील में प्रतिबिंबित सिटी पैलेस की भव्यता।"
     },
@@ -427,7 +433,7 @@ export const weddingConfig: WeddingConfig = {
       title: "The Graceful Bride",
       titleHindi: "सौम्य दुल्हन",
       category: "portraits",
-      imageUrl: "/src/assets/images/bride_portrait_1792099311324.jpg",
+      imageUrl: bridePhoto,
       caption: "Radhika in hand-embroidered rose lehenga with traditional Mewari Kundan jewellery.",
       captionHindi: "पारंपरिक कुंदन आभूषणों और गुलाबी लहंगे में सजी राधिका।"
     },
@@ -436,7 +442,7 @@ export const weddingConfig: WeddingConfig = {
       title: "The Royal Groom",
       titleHindi: "राजसी दूल्हा",
       category: "portraits",
-      imageUrl: "/src/assets/images/groom_portrait_1792099311214.jpg",
+      imageUrl: groomPhoto,
       caption: "Suryaveer in an ivory achkan sherwani with an understated Mewar safa.",
       captionHindi: "आइवरी अचकन शेरवानी और मेवाड़ी साफा में सुशोभित सूर्यवीर।"
     },
@@ -445,7 +451,7 @@ export const weddingConfig: WeddingConfig = {
       title: "Sacred Mandap & Pheras",
       titleHindi: "पवित्र मंडप एवं फेरे",
       category: "preparations",
-      imageUrl: "/src/assets/images/royal_mandap_celebration_1792099311415.jpg",
+      imageUrl: mandap,
       caption: "Fragrant marigold garlands and sacred fire awaiting the auspicious moments.",
       captionHindi: "गेंदे के सुगंधित फूलों और पवित्र अग्नि के साक्षी शुभ मुहूर्त की तैयारी।"
     },
@@ -454,7 +460,7 @@ export const weddingConfig: WeddingConfig = {
       title: "Twilight on Jagmandir",
       titleHindi: "जगमंदिर की संध्या",
       category: "prewedding",
-      imageUrl: "/src/assets/images/udaipur_twilight_closing_1792099310694.jpg",
+      imageUrl: twilight,
       caption: "Thousands of floating lanterns illuminated over Lake Pichola.",
       captionHindi: "पिछोला झील पर दीपों और दीपमालाओं से जगमगाता जगमंदिर द्वीप महल।"
     }
