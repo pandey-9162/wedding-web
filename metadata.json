@@ -1,0 +1,6 @@
+{
+  "name": "A Royal Beginning – Udaipur Wedding",
+  "description": "A royal Rajasthani wedding celebration in Udaipur. Join our families as two hearts unite in love and tradition.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
